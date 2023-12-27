@@ -19,7 +19,7 @@ public class MainManager : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(gameObject);
 
-        
+        LoadColor();
     }
     [System.Serializable]
     class SaveData

@@ -6,6 +6,7 @@ public class MainManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public static MainManager instance;
+    public Color TeamColor;
 
     private void Awake() {
 

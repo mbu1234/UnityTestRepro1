@@ -42,4 +42,13 @@ public class MenuUIHandler : MonoBehaviour
         #endif
 
     }
+
+    public void SaveColorClicked() {
+        MainManager.instance.SaveColor();
+    }
+
+    public void LoadColorClicked() {
+        MainManager.instance.LoadColor();
+        ColorPicker.SelectColor(MainManager.instance.TeamColor);
+    }
 }
